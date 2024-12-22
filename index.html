@@ -24,9 +24,9 @@
             </li>
            
           </ul>
-          <form class="d-flex ms-auto ">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success " type="submit">Search</button>
+          <form class="d-flex ms-auto " onsubmit="return false;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-bar">
+            <button class="btn btn-outline-success " type="submit" onclick="searchProducts()">Search</button>
           </form>
           
         </div>
@@ -63,66 +63,7 @@
         <section class="container">
             <h1>Products</h1>
                 <div class = "row gy-3 gx-3" id = "product-list">
-                    <div class = "col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
-                <div class="card">
-                  <img class="card-img-top" src="https://img.freepik.com/free-psd/laptop-mock-up-design_1307-45.jpg?t=st=1723467214~exp=1723470814~hmac=4301ca6173122769dc8036eb4b08515f02dc5d72d70ea5745697e5389dd4989f&w=826" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Laptop</h5>
-                    <p class = "text-success">$830</p>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam est possimus</p>
-                 
-                  </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">View Product</button>
-                    <button class="btn btn-primary">Add to cart</button>
-                  </div>
-                </div>
-                </div>
-                    <div class = "col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
-                <div class="card">
-                  <img class="card-img-top" src="https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg?t=st=1723470370~exp=1723473970~hmac=ca48a6f5379052a9292c1c9c25fefad33d6aef757b6109413fed6ae8894cdde2&w=826" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Phone</h5>
-                    <p class = "text-success">$235</p>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam est possimus</p>
-                 
-                  </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">View Product</button>
-                    <button class="btn btn-primary">Add to cart</button>
-                  </div>
-                </div>
-                </div>
-               
-                    <div class = "col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
-                <div class="card">
-                  <img class="card-img-top" src="https://img.freepik.com/premium-photo/sleek-stylish-enhance-your-game-with-this-rgb-gaming-mouse_1312917-975.jpg?w=826" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Mouse</h5>
-                    <p class = "text-success">$11</p>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam est possimus</p>
-                 
-                  </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">View Product</button>
-                    <button class="btn btn-primary">Add to cart</button>
-                  </div>
-                </div></div>
-                  <div class = "col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 col-xxl-3">
-                <div class="card">
-                    <img class="card-img-top" src="https://img.freepik.com/premium-photo/keyboard-with-letters-lg-it_987764-213453.jpg?w=740" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Keyboard</h5>
-                        <p class = "text-success">$18</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam est possimus</p>
-                     
-                      </div>
-                      <div class="card-footer">
-                        <button class="btn btn-warning">View Product</button>
-                        <button class="btn btn-primary">Add to cart</button>
-                      </div>
-                      </div>
-                      </div>
+                    
               </div>
         </section>
       </main>
